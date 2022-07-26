@@ -1,0 +1,23 @@
+{
+  "name": "genusalgorithmus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanilson-Costa18/GenusAlgorithmus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivanilson-Costa18/GenusAlgorithmus/issues"
+  },
+  "homepage": "https://github.com/Ivanilson-Costa18/GenusAlgorithmus#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

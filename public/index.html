@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>GenusAlgorithmus</title>
+        <script src="scripts/sorting.js" defer></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <h1>GenusAlgorithmus</h1>
+            </div>
+            <nav>
+                <input id="range" type="range" min="10" max="100">
+                <p>Sort with 
+                    <input id="sort-input" list="sort-optns" type="text" name="sort-value" placeholder="Choose an algorithm...">
+                    <datalist id="sort-optns">
+                        <option value="Merge Sort"></option>
+                        <option value="Quick Sort"></option>
+                        <option value="Bubble Sort"></option>
+                        <option value="Binary Insertion Sort"></option>
+                        <option value="Heap Sort"></option>
+                    </datalist>
+                .</p>
+                <button id="start-btn">Start Genus</button>
+            </nav>
+        </header>
+        <main>
+            <div id="graph-container">
+                <div id="graph">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
